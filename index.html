@@ -14,11 +14,13 @@
 
     <!-- boing audio -->
 
-    <!--
+    <!-- assets -->
     <a-assets>
-        <audio id="audio1" src="assets/boing_x.wav"></audio>
+        <!-- <audio id="audio1" src="assets/boing_x.wav"></audio> -->
+        <a-asset-item id="circle-table-obj" src="assets/3d-model.obj"></a-asset-item>
+        <a-asset-item id="circle-table-mtl" src="assets/3d-model.mtl"></a-asset-item>
     </a-assets>
-    -->
+
 
     <!-- Camera Ring -->
     <a-entity position="1 1 6" rotation="0 90 0">
@@ -52,11 +54,29 @@
     <!-- <a-entity static-body geometry="primitive: box; depth: 80; height: 11; width: 1" position="-47 5.5 -4.5" material="src: assets/red_carpet.jpg"></a-entity> -->
     <a-entity static-body geometry="primitive: box; depth: 80; height: 0.1; width: 50"  material="shader: flat; side: double; opacity: 1; src: assets/red_carpet.jpg; repeat: 2 2" position="0 0 0"></a-entity>
 
-    <!--blue wall -->
+    <!-- blue wall -->
     <a-entity static-body geometry="primitive: box; depth: 80; height: 11; width: 1" position="-25.5 5.5 0" roughness: 1; material="src: assets/blue_wall.jpg"></a-entity>
+
+    <!-- ceiling -->
+    <a-entity static-body geometry="primitive: box; depth: 80; height: 0.1; width: 50"  material="shader: flat; side: double; opacity: 1; src: assets/white_ceiling.jpg; repeat: 10 10" position="0 10 0"></a-entity>
+
+    <!-- white wall back -->
+    <a-entity static-body geometry="primitive: box; depth: 80; height: 11; width: 1" position="25.5 5.5 0" roughness: 1; material="src: assets/white_wall.jpg"></a-entity>
+
+    <!-- white wall left -->
+    <a-entity static-body geometry="primitive: box; depth: 1; height: 11; width: 50" position="0 5.5 40" roughness: 1; material="src: assets/white_wall.jpg"></a-entity>
+
+    <!-- white wall right -->
+    <a-entity static-body geometry="primitive: box; depth: 1; height: 11; width: 50" position="0 5.5 -40" roughness: 1; material="src: assets/white_wall.jpg"></a-entity>
+
+    <!-- round table -->
+    <a-entity obj-model="obj: #circle-table-obj; mtl: #circle-table-mtl"></a-entity>
 
     <!-- light -->
     <a-light type="ambient" color="#FFFFFF" intensity: 2></a-light>
+
+    <!-- sky -->
+    <a-sky color="#222"></a-sky>
 </a-scene>
 
 </body>
