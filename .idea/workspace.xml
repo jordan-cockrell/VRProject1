@@ -15,6 +15,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1hZBuoGCWMibfpuL3Urjn2G5Uay" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -24,11 +27,12 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\School\VRFall2020\VRProject1\assets" />
       <recent name="C:\School\VRFall2020\VRProject1\lib" />
     </key>
   </component>
@@ -40,7 +44,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600208959529</updated>
-      <workItem from="1600208960717" duration="1337000" />
+      <workItem from="1600208960717" duration="2664000" />
+      <workItem from="1600376052527" duration="7009000" />
+      <workItem from="1600547759320" duration="7653000" />
+      <workItem from="1600723900484" duration="932000" />
+      <workItem from="1600831182810" duration="4000" />
+      <workItem from="1601337710391" duration="4684000" />
     </task>
     <servers />
   </component>
