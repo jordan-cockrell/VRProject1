@@ -70,7 +70,10 @@
     <a-entity static-body geometry="primitive: box; depth: 1; height: 11; width: 50" position="0 5.5 -40" roughness: 1; material="src: assets/white_wall.jpg"></a-entity>
 
     <!-- round table -->
-    <a-entity obj-model="obj: #circle-table-obj; mtl: #circle-table-mtl"></a-entity>
+    <a-entity obj-model="obj: url(assets/round_table.obj); mtl: url(assets/round_table.mtl)" material="src: assets/gray_table_texture.jpg" position="0 1 -1" scale="0.1 0.1 0.1"></a-entity>
+
+    <!-- chair -->
+    <a-entity obj-model="obj: url(assets/desk_chair.obj); mtl: url(assets/desk_chair.mtl)" material="src: assets/gray_table_texture.jpg" position="0 1 -1" scale="0.1 0.1 0.1"></a-entity>
 
     <!-- light -->
     <a-light type="ambient" color="#FFFFFF" intensity: 2></a-light>
