@@ -17,8 +17,11 @@
     <!-- assets -->
     <a-assets>
         <!-- <audio id="audio1" src="assets/boing_x.wav"></audio> -->
-        <a-asset-item id="circle-table-obj" src="assets/3d-model.obj"></a-asset-item>
-        <a-asset-item id="circle-table-mtl" src="assets/3d-model.mtl"></a-asset-item>
+        <a-asset-item id="circle-table-obj" src="assets/circle-table.obj"></a-asset-item>
+        <a-asset-item id="circle-table-mtl" src="assets/circle-table.mtl"></a-asset-item>
+        <!-- chair -->
+        <a-asset-item id="brown-chair-obj" src="assets/brown-chair.obj"></a-asset-item>
+        <a-asset-item id="brown-chair-mtl" src="assets/brown-chair.mtl"></a-asset-item>
     </a-assets>
 
 
@@ -70,7 +73,10 @@
     <a-entity static-body geometry="primitive: box; depth: 1; height: 11; width: 50" position="0 5.5 -40" roughness: 1; material="src: assets/white_wall.jpg"></a-entity>
 
     <!-- round table -->
-    <a-entity obj-model="obj: #circle-table-obj; mtl: #circle-table-mtl"></a-entity>
+    <a-entity obj-model="obj: #circle-table-obj" material="color: red" position="0 0 0" scale="0.1 0.1 0.1"></a-entity>
+
+    <!-- brown chair -->
+    <a-entity obj-model="obj: #brown-chair-obj" material="src: assets/blue_wall.jpg" position="-5 0 0" scale="1 1 1"></a-entity>
 
     <!-- light -->
     <a-light type="ambient" color="#FFFFFF" intensity: 2></a-light>
