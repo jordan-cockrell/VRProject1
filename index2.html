@@ -11,9 +11,7 @@
 
 
 <a-scene>
-
-    <!-- boing audio -->
-
+    <!-- NON COVID -->
     <!-- assets -->
     <a-assets>
         <!-- <audio id="audio1" src="assets/boing_x.wav"></audio> -->
@@ -28,7 +26,6 @@
 
     </a-assets>
 
-
     <!-- Camera Ring -->
     <a-entity position="1 1 6" rotation="0 90 0">
         <a-camera universal-controls>
@@ -37,28 +34,7 @@
         </a-camera>
     </a-entity>
 
-    <!-- Radio -->
-
-    <!-- https://free3d.com/ -->
-    <!--
-    <a-entity id="radio" collada-model="url(assets/radio/Radio_BI_dae.dae)" rotation="0 90 0" position="49 2.5 15" visible="" scale="0.05 0.05 0.05">
-    </a-entity>
-    <a-entity id="cuberadio" sound="src: #audio1" geometry="primitive: box" material="color: blue" position="-1 0.5 -3" rotation="" scale="0.5 1 0.5" visible="true" width="10"></a-entity> -->
-
-    <!-- shapes -->
-
-    <!-- <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
-    <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
-    <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
-    <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
-    <a-sky color="#ECECEC"></a-sky> -->
-
-    <!-- white walls -->
-
-    <!-- <a-entity static-body geometry="primitive: box; depth: 50; height: 3; width: 1" position="-47 12.5 0" material="src: assets/white_wall.jpg"></a-entity> -->
-
     <!-- red carpet -->
-    <!-- <a-entity static-body geometry="primitive: box; depth: 80; height: 11; width: 1" position="-47 5.5 -4.5" material="src: assets/red_carpet.jpg"></a-entity> -->
     <a-entity static-body geometry="primitive: box; depth: 80; height: 0.1; width: 50"  material="shader: flat; side: double; opacity: 1; src: assets/red_carpet.jpg; repeat: 2 2" position="0 0 0"></a-entity>
 
     <!-- blue wall -->
@@ -85,8 +61,24 @@
     <!-- tall table -->
     <a-entity obj-model="obj: #tall-table-obj" material="color: red" position="5 0 0" scale="0.1 0.1 0.1"></a-entity>
 
+    <!-- NON-COVID EXTRA TABLES AND CHAIRS HERE -->
+
+    <!-- 6 window -->
+
+    <!-- 7 cabinet -->
+
+    <!-- 8 steel AC -->
+
+    <!-- 9 red square columns -->
+
+    <!-- 10 trash cans black -->
+
+    <!-- 11 outlet -->
+
+    <!-- 12 floor outlet -->
+
     <!-- link -->
-    <a-link href="index.html" title="After COVID" image="assets/blue_wall.jpg" position="5 5 0"></a-link>
+    <a-link href="index.html" title="After COVID" image="assets/blue_wall.jpg" position="20 3 -30"></a-link>
 
     <!-- light -->
     <a-light type="ambient" color="#FFFFFF" intensity: 2></a-light>
