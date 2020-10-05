@@ -3,6 +3,8 @@
 
 My project is a study room in the SUB (Student Union Building) and shows the differences that have been made to protect against the spread of COVID-19.
 
+Demo Link: https://jordan-cockrell.github.io/VRProject1/
+
 Clean Table Cards
 
 ![](Images/VR1.JPG)
