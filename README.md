@@ -3,4 +3,4 @@
 
 Hello! this is the read me!
 
-![](Images/VR1.jpg)
+![](Images/VR1.JPG)
